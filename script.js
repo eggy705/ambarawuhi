@@ -1,6 +1,6 @@
 // Data Dummy seolah-olah dari API Spotify
 const userData = {
-    name: "Budi",
+    name: "ambaatubes pria sholoo wowok johan muani",
     topGenre: "Synthwave",
     topArtist: "The Weeknd",
     minutes: "24,890",
