@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify: About You</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">
+                <i class="fab fa-spotify"></i> <span>Spotify</span>
+            </div>
+            <ul>
+                <li class="active"><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-search"></i> Search</li>
+                <li><i class="fas fa-book"></i> Your Library</li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <header>
+                <h1>Made For <span id="user-name">Pengguna</span></h1>
+            </header>
+
+            <section class="stats-grid">
+                <div class="card big-card">
+                    <h3>Your Top Genre</h3>
+                    <p id="top-genre">Indie Pop</p>
+                </div>
+                <div class="card">
+                    <h3>Top Artist</h3>
+                    <p id="top-artist">Tulus</p>
+                </div>
+                <div class="card">
+                    <h3>Minutes Listened</h3>
+                    <p id="minutes">12,450</p>
+                </div>
+            </section>
+
+            <section class="recent-list">
+                <h2>Recently Played</h2>
+                <div id="song-list">
+                    </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
